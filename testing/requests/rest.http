@@ -3,12 +3,26 @@
 @deploy = https://
 
 ############################################################
-### local test requests
-POST {{local}}/route
+### 
+POST {{local}}/getAuthCode
 content-type: application/json
 
 {
+    "siteId": "CA4BD51AE638F911E8A68ED8C462D60FE6B1432C11311E21DEE4CC2595D81BA8"
 }
+### 
+POST {{local}}/sendForm
+content-type: application/json
+
+{
+    "authCode": "ade61b46e3b4f3a19372c07d6e88941c5b2c26e8fa02ca083d1b1bb833d1b226",
+    "formData": {
+        "title": "FormTITLE",
+        "message": "FormMESSAGE"
+    }
+}
+
+
 
 ############################################################
 ### deployment requests
