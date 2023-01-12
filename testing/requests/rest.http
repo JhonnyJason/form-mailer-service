@@ -15,10 +15,15 @@ POST {{local}}/sendForm
 content-type: application/json
 
 {
-    "authCode": "fe194d145e4ba8a5d88605f89dab2b1ae2474697ec64a1b0053efe7118560e6f",
+    "authCode": "f7574e93ef7a97ff769329197fa05ea51f91ed1df5a8697149eb158218d42f07",
     "formData": {
-        "title": "FormTITLE",
-        "message": "FormMESSAGE"
+        "name": "Mr Nami Namer",
+        "email": "master@lennymail.at",
+        "company": "DotV OÜ",
+        "company-address": "Narva mnt  7",
+        "zip-code": "666",
+        "country": "Estonia",
+        "message": "Hallo Ihr Leute, ich sage heute, ich fresse eure Häute, auf dass ich super schweinefresser bedeute. Ihr seid meine Beute"
     }
 }
 
